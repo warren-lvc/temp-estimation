@@ -2,7 +2,7 @@
 
 ### Authors
 
-Saransh<sup>1,</sup><sup>2</sup><sup>*</sup>, Nitin Dhiman<sup>2,</sup><sup>3</sup>, and P.K. Dubey<sup>2,</sup><sup>3</sup>
+Saransh<sup>1,</sup><sup>2</sup>, Nitin Dhiman<sup>2,</sup><sup>3</sup>, and P.K. Dubey<sup>2,</sup><sup>3</sup>
 
 ¹ Department of Electronics Engineering, J.C. Bose University of Science and Technology, YMCA, Faridabad, India
 
@@ -78,7 +78,7 @@ while (ECHO == 1 && count < 60000) {
 ```
 ### 2. Multi-Sample Averaging and Temporal Stabilization
 
-1. To reduce random jitter and enhance measurement reliability, multi-sample averaging is applied over 200 valid velocity readings.
+1. To reduce enhance measurement reliability, multi-sample averaging is applied over 200 valid velocity readings.
 
 2. Only valid measurements are accumulated to compute the average ultrasonic velocity.
 
@@ -126,27 +126,27 @@ To assess the performance of our ultrasonic temperature measurement device, we c
 
 ### 1. Measurement Accuracy
 
-Definition: The difference between the temperature measured by our device and the NPL reference.
+**Definition:** The difference between the temperature measured by our device and the NPL reference.
 
-Goal: Minimize the deviation to ensure highly precise readings.
+**Goal:** Minimize the deviation to ensure highly precise readings.
 
-Interpretation: Smaller deviation indicates higher accuracy and closer adherence to the national standard.
+**Interpretation:** Smaller deviation indicates higher accuracy and closer adherence to the national standard.
 
 ### 2. Measurement Stability
 
-Definition: The consistency of repeated temperature measurements over time under identical conditions.
+**Definition:** The consistency of repeated temperature measurements over time under identical conditions.
 
-Goal: Achieve minimal fluctuation between successive readings.
+**Goal:** Achieve minimal fluctuation between successive readings.
 
-Interpretation: Lower variance indicates better stability and reliability of the device.
+**Interpretation:** Lower variance indicates better stability and reliability of the device.
 
 ## Key Takeaways
 
-1. High Accuracy: Our device consistently measures temperature within ±0.4 °C of the NPL standard, demonstrating precise calibration.
+1.  **High Accuracy:** Our device consistently measures temperature within ±0.4 °C of the NPL standard, demonstrating precise calibration.
 
-2. High Stability: Multi-sample averaging and temporal smoothing reduce jitter, ensuring repeatable, reliable readings.
+2.  **High Stability:** Multi-sample averaging and temporal smoothing ensures repeatable, reliable readings.
 
-3. Overall Performance: The ideal device combines both high accuracy and stability, providing a trustworthy, contactless, and low-cost temperature measurement solution.
+3.  **Overall Performance:** The ideal device combines both high accuracy and stability, providing a trustworthy, contactless, and low-cost temperature measurement solution.
 
 
 ## Availabale Methods
@@ -158,6 +158,19 @@ Interpretation: Lower variance indicates better stability and reliability of the
 3. wireless_iot – Distributed monitoring using wireless sensors; needs calibration and network setup.
 
 4. infrared_optical – Non-contact IR/optical sensors; sensitive to emissivity and environmental factors.
+
+
+## Key Metrics to Compare
+
+When evaluating your ultrasonic temperature measurement device against a calibrated reference (e.g., NPL standard), focus on:
+
+1. **Measurement Accuracy:** Deviation from the reference temperature; smaller is better.
+
+2. **Measurement Stability:** Consistency of repeated readings; lower variation is better.
+
+3. **Response Time:** Time to reach a stable reading; faster is better.
+
+4. **Practical Reproducibility:** Ability to reproduce results when adjusting parameters like reflector distance, sample size, or smoothing factor.
 
 
 ## Citation

@@ -1,5 +1,5 @@
 # Development of a Device for Estimation of Ambient Temperature by Measuring Ultrasonic Propagation Velocity in Air
-Saransh¹²*, Nitin Dhiman²³, and P.K. Dubey²³
+Saransh<sup>1,</sup><sup>2</sup><sup>*</sup>, Nitin Dhiman<sup>2,</sup><sup>3</sup>, and P.K. Dubey<sup>2,</sup><sup>3</sup>
 
 ¹ Department of Electronics Engineering, J.C. Bose University of Science and Technology, YMCA Faridabad, India
 
@@ -7,7 +7,7 @@ Saransh¹²*, Nitin Dhiman²³, and P.K. Dubey²³
 
 ³ Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India
 
-* Corresponding Author; e-mail: saransh.vas@gmail.com
+\* Corresponding Author; e-mail: saransh.vas@gmail.com
 
 🏛️ Overview
 
@@ -16,6 +16,9 @@ This project presents a low-cost, contactless system for ambient temperature est
 The system measures ultrasonic time-of-flight (TOF) with an HC-SR04 sensor and an ATmega16A microcontroller, calculates the ultrasonic propagation velocity in air, and estimates temperature with high precision (±0.4 °C). Results are displayed in real-time via a 16x2 LCD, demonstrating repeatable and reliable measurements suitable for laboratory and industrial applications.
 
 Publication: In proceedings of International Conference on Ultrasonics and Materials Science for Advanced Technology (ICUMSAT-2025) held on 21-23 Jan 2026, Chennai, India.
+
+Link: https://www.researchgate.net/publication/400065300_Development_of_a_Device_for_Estimation_of_Ambient_Temperature_by_Measuring_Ultrasonic_Propagation_Velocity_in_Air
+
 
 🎯 Objectives
 
@@ -62,9 +65,10 @@ where
 where, c is the velocity of sound in air in m/s, 331.4 m/s is the velocity of sound at 0°C, 0.606 is the temperature coefficient, indicating how sound speed increases per degree rise in temperature, T is the ambient temperature in °C.
 
 Signal Processing:
-    1. 200-sample averaging to reduce random jitter
+    
+   1. 200-sample averaging to reduce random jitter
 
-    2. 10 ms inter-sample delay to prevent residual echo interference
+   2. 10 ms inter-sample delay to prevent residual echo interference
 
 Display: Real-time temperature output on 16x2 LCD.
 
@@ -95,5 +99,3 @@ Display: Real-time temperature output on 16x2 LCD.
 5. Real-time LCD display
 
 6. Open-source code for educational and research use
-
-Link: https://www.researchgate.net/publication/400065300_Development_of_a_Device_for_Estimation_of_Ambient_Temperature_by_Measuring_Ultrasonic_Propagation_Velocity_in_Air

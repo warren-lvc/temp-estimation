@@ -10,7 +10,7 @@ This project presents a low-cost, contactless system for ambient temperature est
 
 The system measures ultrasonic time-of-flight (TOF) with an HC-SR04 sensor and an ATmega16A microcontroller, calculates the ultrasonic propagation velocity in air, and estimates temperature with high precision (±0.4 °C). Results are displayed in real-time via a 16x2 LCD, demonstrating repeatable and reliable measurements suitable for laboratory and industrial applications.
 
-Publication: In proceedings of International Conference on Ultrasonics and Materials Science for Advanced Technology (ICUMSAT-2025) held on 21-23 Jan 2026, Chennai India.
+Publication: In proceedings of International Conference on Ultrasonics and Materials Science for Advanced Technology (ICUMSAT-2025) held on 21-23 Jan 2026, Chennai, India.
 
 🎯 Objectives
 

@@ -52,7 +52,7 @@ float get_velocity() {
             valid_readings++;
         }
         
-        delay_ms(2); // Small delay between readings
+        delay_ms(10); // Small delay between readings
     }
     
     if (valid_readings > 0) {
@@ -113,3 +113,4 @@ void main() {
         delay_ms(500); // Increased delay for better stabilization
     }
 }
+

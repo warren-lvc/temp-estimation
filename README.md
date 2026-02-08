@@ -1,14 +1,15 @@
 # Development of a Device for Estimation of Ambient Temperature by Measuring Ultrasonic Propagation Velocity in Air
 
+
 ### Authors
 
-Saransh<sup>1,</sup><sup>2</sup>, Nitin Dhiman<sup>2,</sup><sup>3</sup>, and P.K. Dubey<sup>2,</sup><sup>3</sup>
+[<u>Saransh</u>](https://saranshvas.github.io/)<sup>1,2</sup>, [<u>Nitin Dhiman</u>](https://www.researchgate.net/profile/Nitin-Dhiman)<sup>2,3</sup>, and [<u>P.K. Dubey</u>](https://www.researchgate.net/profile/P-K-Dubey)<sup>2,3</sup>
 
-¹ Department of Electronics Engineering, J.C. Bose University of Science and Technology, YMCA, Faridabad, India
-
-² Pressure, Vacuum and Ultrasonic Metrology, Division of Physico-Mechanical Metrology, CSIR-National Physical Laboratory, New Delhi, India
-
-³ Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India
+<p align="left">
+  <sup>1</sup> <i>Department of Electronics Engineering, J.C. Bose University of Science and Technology, YMCA, Faridabad, India</i><br>
+  <sup>2</sup> <i>Pressure, Vacuum and Ultrasonic Metrology, Division of Physico-Mechanical Metrology, CSIR-National Physical Laboratory, New Delhi, India</i><br>
+  <sup>3</sup> <i>Academy of Scientific and Innovative Research (AcSIR), Ghaziabad, India</i>
+</p>
 
 
 ## Overview
